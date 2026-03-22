@@ -10,5 +10,7 @@ print(marks.values())
 marks.update({"Harry" : 99 , "Pihu" : 101}) 
 print(marks)
 
+print(len(marks))  #length
+
 print(marks.get("Harry")) # Prints none if key not found
 print(marks["Harry"]) # Prints error if key not found
