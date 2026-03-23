@@ -29,3 +29,26 @@ s.add(20)
 s.add(20.0)
 s.add('20')
 print(len(s))  #  2 bcz in python 20 == 20.0 is True
+
+
+d = {}
+name = input("Enter friends name :")
+lang = input("Enter language name : ")
+d.update({name : lang})
+
+name = input("Enter friends name :")
+lang = input("Enter language name : ")
+d.update({name : lang})
+
+name = input("Enter friends name :")
+lang = input("Enter language name : ")
+d.update({name : lang})
+
+name = input("Enter friends name :")
+lang = input("Enter language name : ")
+d.update({name : lang})
+
+print(d)
+
+# if key is same to update ho jaega - val
+# val same ho skta hai dict me
