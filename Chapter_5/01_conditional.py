@@ -18,7 +18,9 @@
 #     print("You are below the age of concent")
 # # end of if statement 1
 
-  
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# IN Keyword
+
 # p1 = "Make a lot of money"
 # p2 = "buy now"
 # p3 = "subscribe this"
@@ -34,6 +36,26 @@
 user = input("Enter your username : ")
 
 if(len(user) > 10):
-    print("It oontains more than 10 chars")
+    print("It contains more than 10 chars")
 else:
     print("It contains less than 10 chars")
+    
+    
+# Q) If a name is present in list or not
+
+l = ["Harry", "Rohan", "Mohan"]
+
+name = input("Enter your name : ")
+
+if(name in l):
+    print("Your name is in the list")
+else:
+    print("not in list")
+    
+
+post = input("Enter the post : ")
+
+if("Harry".lower() in post.lower()):
+    print("This post is talking about harry")
+else:
+    print("This post is not talking about harry")

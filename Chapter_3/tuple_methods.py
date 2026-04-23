@@ -1,6 +1,8 @@
 a = (1,45 ,342, 3424, 45, False, "Rohan" , "Shivam")
 print(a)
 
+# a = (1,)  -> tuple me sirf ek elemnt hai 
+
 no = a.count(45)
 print(no)
 
