@@ -16,6 +16,7 @@
 
 # Solve the above problem we use function
 
+# Func definition
 def avg():
     a = int(input("Enter a no : "))
     b = int(input("Enter a no : "))
@@ -24,6 +25,6 @@ def avg():
     avg = (a + b + c)/3
     print(avg)
 
-avg()
+avg() # function call
 avg()
 avg()
