@@ -3,7 +3,7 @@ marks = {
     "Shubham" : 45,
     "Rohan" : 67,
 }
-
+ 
 print(marks.items())
 print(marks.keys())
 print(marks.values())
